@@ -6,7 +6,7 @@ db.topics.aggregate([
       localField: "_id",
       foreignField: "kata_id",
       as: "tasks",
-    },
+    }
   },
   {
     $match: {
